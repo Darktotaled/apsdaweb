@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet">
+  <title>APS</title>
+</head>
+<body>
+  <div class="container-fluid" >
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top justify-content-center">
+      <!-- Links -->
+      <div class="logo mr-3"><h1 id="title">CRE Ecommerce</h1></div>
+      <div class="navbar-collapse collapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#Home">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Serviços</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#clientes">Nossos Clientes</a>
+        </li>
+      </ul>
+    </div>
+      <button type="button" class="btn btn-light" data-toggle="modal" data-target="#myModal" id="login"  onclick="modalForm.login()">Login</button>
+      <button type="button" class="btn btn-light" class="btn"
+      data-toggle="modal" data-target="#myModal"
+      onclick="modalForm.registrar()"
+      >Registrar</button>
+    </nav>
+  </header>
+  <main class="mt-5 container-fluid">
+    <section class="section" id="Home">
+      <div class="container">
+        <div class="text">
+          <h1>O que é Ecommerce?</h1>
+            <p>Ecommerce, e de electronic ou eletrônico, e commerce , inglês para comérico, é uma área do mercado que integra compra e venda e a internet. Com a possibilidade de fazer transações pelo meio digital, o ecommerce traz a opção de minimalizar o custo para empresas na questão de lojas físicas e funcionários, sendo substituídos por uma loja completamente digital.</p>
+          </div>
+          <div>
+            <iframe  src="https://www.youtube.com/embed/-bTv_OIXHXg" class="responsive-iframe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+    </section>
+    <!--Cards-->
+    <section class="section" id="services">
+      <div class="container grid">
+        <header>
+          <h2 class="title">Serviços</h2>
+          <p class="subtitle">
+            A CRE Ecommerce atende os mais variados clientes, desde o micro empreendedor até empresas de grande porte. Abaixo, pode-se conferir nossos serviços.
+          </p>
+        </header>
+        <div class="cards grid">
+          <div class="card">
+            
+            <h3 class="title">Criação de Loja Online</h3>
+            <p>
+              Criação e personalização de uma loja digital com a sua cara. Já incluindo todas as funcionalidades necessárias para começar a vender.
+            </p>
+          </div>
+          <div class="card">
+
+            <h3 class="title">Manutenção</h3>
+            <p>
+              Além de criar lojas digitais, nós tambem fazemos manutenção e atualização das lojas criadas para mantê-la funcional e condizente com a visão do cliente.
+            </p>
+          </div>
+          <div class="card">
+        
+            <h3 class="title">Interface Gerencial Personalizada</h3>
+            <p>
+              Entregamos também um dashboard personalizado para facilitar o gerenciamento do seu ecommerce.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- carrossel-->
+    <section class="section" id="clientes">
+      <h2>Nossos Clientes</h2>
+    <div class="swiper">
+      <!-- Slider main container -->
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <div class="testimonial swiper-slide">
+          <blockquote>
+            <cite>
+              <img
+                src="https://randomuser.me/api/portraits/women/69.jpg"
+                alt="Foto de Flavia Souza"
+              />
+              Flavia Souza
+            </cite>
+            <p>
+              <span>&ldquo;</span>
+              Com a questão da pandemia, o meu pequeno negócio de vender chocolates e outros doces caseiros na faculdade ficou impedido. Com a loja digital da CRE Ecommerce, não só eu consegui voltar a vender, como também eu consegui expandir a minha área de venda. <span>&ldquo;</span>
+            </p>
+          </blockquote>
+        </div>
+      </div>
+      <div class="testimonial swiper-slide">
+        <blockquote>
+          <cite>
+            <img
+              src="https://randomuser.me/api/portraits/men/69.jpg"
+              alt="Foto de Carlos Alberto"
+            />
+            Carlos Alberto
+          </cite>
+          <p>
+            <span>&ldquo;</span>
+            A minha serralheria funciona através de encomenda e necessita de várias informações específicas antes de eu começar a trabalhar. Através da minha loja digital que fiz com a CRE Ecommerce, eu posso captar todas as informações que eu preciso e automaticamente gerar um orçamento pros meus clientes.<span>&ldquo;</span>
+          </p>
+        </blockquote>
+      </div>
+      <div class="testimonial swiper-slide">
+        <blockquote>
+          <cite>
+            <img
+              src="https://randomuser.me/api/portraits/women/84.jpg"
+              alt="Foto de wanessa Souza"
+            />
+            Wanessa Souza
+          </cite>
+          <p>
+            <span>&ldquo;</span>
+            Minha loja de roupa funciona através de encomendas e entrega. Tinha uma grande dificuldade de divulgação e gerenciamento de encomendas, porem isso acabou depois que  fiz minha loja virtual com a  CRE Ecommerce melhorando minhas vendas.<span>&ldquo;</span>
+          </p>
+        </blockquote>
+      </div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+    </section>
+    
+    
+  </main>
+</div>
+
+
+<div class="container" id="modal">
+  <!-- The Modal -->
+</div>
+<!-- Footer -->
+
+<footer class="footer">
+  <div class="footer-container">
+  <div class="footer-row">
+    <div class="footer-col">
+      <h4>Sobre nós</h4>
+      <li>
+        <p>
+          A CRE Ecommerce foi formada pelos universitários Caio Caldas, Eduardo Fialho e Rodrigo Limões com o intuito de por em prática o que foi ensinado na universidade e trazer a própria visão deles para esse mercado que está em crescimento. Sempre se atualizando e se adaptando aos seus clientes e mudanças no mercado, a CRE Ecommerce tem como objetivo a qualidade de atendimento e prestação de serviço.
+        </p>
+      </li>
+  
+    </div>
+    <div class="footer-col">
+      <h4>Links uteis</h4>
+      <ul>
+        <li><a href="https://www.youtube.com/-bTv_OIXHXg">video da Home page</a></li>
+        <li><a href="https://youtu.be/aEWYDR8sopI">O que é ecommerce?</a></li>
+      </ul>
+    </div>
+    
+    <div class="footer-col">
+      <h4>Redes sociais</h4>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </div>
+  </div>
+  </footer>
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
